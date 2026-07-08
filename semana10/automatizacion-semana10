@@ -1,0 +1,41 @@
+¿Qué evento activa el flujo?
+
+Se activa cuando un ciudadano registra una nueva incidencia en el sistema (formulario web o app móvil) y los datos quedan almacenados en la base de datos/blockchain.
+El webhook de n8n captura el evento "new_incident_created".
+
+
+¿Qué mensaje se enviaría a Telegram?
+
+Mensaje tipo: NUEVA INCIDENCIA REGISTRADA
+
+Zona: [Barrio Carmen]
+
+Tipo: [Iluminación]
+
+Fecha: [2026-06-18]
+
+Descripción resumida: [Daño en las lámparas del parque]
+
+Revisar en el sistema: [enlace al detalle interno]
+
+(El enlace lleva a un panel privado con autenticación, no a la incidencia directa pública)
+
+
+
+¿Qué información no debería enviarse por seguridad?
+
+Nombre completo del denunciante
+
+Número de identificación (cédula, pasaporte, etc.)
+
+Dirección exacta de residencia del denunciante
+
+Número de teléfono o correo electrónico personal
+
+Claves, tokens o contraseñas
+
+Geolocalización precisa de la vivienda del denunciante (solo la zona general de la incidencia)
+
+Datos de menores de edad o personas vulnerables mencionadas en el relato
+
+Cualquier información que permita reidentificar a una persona en el espacio público.

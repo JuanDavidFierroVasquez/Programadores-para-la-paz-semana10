@@ -1,0 +1,24 @@
+¿Qué 2 tareas del backlog harías primero?
+
+1. Registrar incidencia con fotos, ubicación y descripción.
+2. Notificar a veedores por zona cuando se registre una incidencia.
+
+
+¿Por qué son las más importantes?
+
+La primera es la base de todo el sistema: sin captura de evidencia confiable, no hay veeduría válida.
+La inmutabilidad garantiza que los reportes no puedan ser alterados ni eliminados, lo cual es el pilar de confianza de la solución.
+
+La segunda asegura que la información llegue a quienes pueden actuar en terreno en el momento oportuno.
+Una incidencia que no se notifica pierde valor operativo. Juntas cubren el ciclo mínimo viable: capturar + alertar.
+
+
+¿Qué significa para ti que una tarea esté "terminada"?
+Definición simple de terminado (Definition of Done):
+
+1. La funcionalidad está implementada y opera correctamente en entorno de pruebas (local o staging),
+cumpliendo con los criterios de aceptación de la historia de usuario.
+
+2. Se ejecutaron pruebas básicas (unitarias o manuales) que verifican flujos principales y casos borde, sin errores críticos.
+
+3. El código fue versionado en Git con un mensaje claro, y se actualizó la documentación mínima (comentarios o README) si aplica.

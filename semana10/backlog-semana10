@@ -1,0 +1,40 @@
+Prioridad Máxima.
+
+Como ciudadano afectado, quiero registrar una incidencia con fotos, ubicación y descripción detallada.
+así los datos quedan inmutables en la blockchain para evitar pérdida o manipulación de evidencias.
+
+
+Prioridad Alta.
+
+Como veedor ciudadano, quiero recibir una notificación push cuando se registre una incidencia en mi zona.
+para actuar rápidamente y verificar el hecho en terreno.
+
+
+Prioridad Media-Alta.
+
+Como coordinador de veeduría, quiero visualizar un tablero con mapas de calor y tendencias de incidentes.
+para priorizar las visitas de inspección y asignar recursos eficientemente.
+
+
+Prioridad Media.
+
+Como miembro del equipo de seguimiento, quiero consultar el historial de una incidencia y agregar comentarios internos.
+para dar trazabilidad a las acciones tomadas sin exponer información sensible al público.
+
+
+Prioridad Media-Baja.
+
+Como ciudadano, quiero dar me gusta o apoyar una incidencia existente.
+para visibilizar problemas que afectan a múltiples personas y presionar su atención prioritaria.
+
+ORDEN DE PRIORIDAD.
+
+1. Prioridad Maxima: Registrar incidencia con pruebas inmutbles.
+
+2. Priordad Alta: Notificar a veedores por zona.
+
+3. Prioridad Media-Alta: Tablero de mapas de calor y priorización.
+
+4. Priordad Media: Historial con comentarios internos.
+
+5. Prioridad Media-Baja: Apoyo ciudadano "votacion".
